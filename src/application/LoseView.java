@@ -22,7 +22,7 @@ public class LoseView extends VBox {
 
 
     public LoseView(double stageWidth, double stageHeight) {
-        // Create the label with the "YOU WIN!" message
+        // Create the label with the "YOU LOSE!" message
         Label messageLabel = new Label(MESSAGE);
         messageLabel.setFont(Font.font("Arial", FontWeight.BOLD, FONT_SIZE));
         messageLabel.setAlignment(Pos.CENTER);
